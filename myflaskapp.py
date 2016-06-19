@@ -23,6 +23,7 @@ import users.a.g1.a40223153
 import users.a.g3.ag3_40323108
 import users.a.g3.ag3_40323108_task2bacd
 import users.a.g3.ag3_40323108_task3abcd
+import users.a.g9.a40323132_1
 #bg1
 import users.b.g1.bg1_40123156
 import users.b.g1.bg1_40123156_2
@@ -458,8 +459,7 @@ def send_file(path):
 
 if __name__ == "__main__":
     app.run()
-app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)
-app.register_blueprint(users.a.g10.ag10_40323141_task1.ag10_40323141)    
+app.register_blueprint(users.a.g4.ag4_40323138.ag4_40323138)   
 app.register_blueprint(users.a.g9.ag9_40323132task.ag9_40323132)
 app.register_blueprint(users.a.g10.ag10_40323139.ag10_40323139)
 app.register_blueprint(users.a.g5.ag5_40323113task1.ag5_40323113)
@@ -475,6 +475,7 @@ app.register_blueprint(users.a.g1.a40223153.ag1_40223153)
 app.register_blueprint(users.a.g3.ag3_40323108.ag3_40323108)
 app.register_blueprint(users.a.g3.ag3_40323108_task2bacd.ag3_40323108bacd)
 app.register_blueprint(users.a.g3.ag3_40323108_task3abcd.ag3_40323108task3)
+app.register_blueprint(users.a.g9.a40323132_1.a40323132_1)
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 #bg1
@@ -530,7 +531,6 @@ app.register_blueprint(users.a.g8.a40323143.ag8_40323143)
 app.register_blueprint(users.a.g8.a40323154.ag8_40323154)
 #ag10
 app.register_blueprint(users.a.g10.a40323139.ag10_40323139_1)
-app.register_blueprint(users.a.g10.a40323141.ag10_40323141_1)
 #ag3
 app.register_blueprint(users.a.g3.a40323108.ag3_40323108_1)
 #ag100
